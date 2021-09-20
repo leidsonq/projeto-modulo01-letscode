@@ -1,0 +1,134 @@
+/*estilos gerais da página
+---------------------------*/
+
+.flexible{
+    display: flex;
+}
+
+div {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+}
+
+/*estilos do header
+-------------------*/
+
+header {
+   width: 768px;
+   height: 59px;
+}
+
+#imgIn {
+    width: 34px;
+    height: 34px;
+}
+
+#divIn{
+    position: relative;
+    width: 277px;
+    height: 34px;
+    top: 11px; 
+    left: 27px; 
+}
+
+#imgLoupe {
+    position: absolute;
+    top: 10.5px;
+    left: 15px;
+    width: 11px;
+    height: 11px;
+
+}
+
+.inputSearch {
+    position: absolute;
+    left: 34px;
+    top: 11.5px;
+    border: none;
+    outline: none;
+    height: 11px;
+    background: #EEF3F7 ;
+}
+
+#divSearchbar {
+    position: absolute;
+    left: 42px;
+    width: 235px;
+    height: 34px;
+    border-radius: 4px;
+    background: #EEF3F7;  
+}
+
+#imgIcons {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+#divIcons{
+    position: relative;
+    top: -13px;
+    width: 290px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#divIconsAndMini{
+    position: relative;
+    top: 11px;
+    left: 124px;
+    width: 350px;
+    height: 40px;
+}
+
+.divItem {
+    width: 58px;
+    height: 40px;
+    filter: opacity(60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divItem:hover {
+    filter: opacity(100%);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 11px;
+    width: 58px;
+}
+
+#imgMini {
+    width: 25.4px;
+    height: 25.px;
+    border-radius: 50%;
+}
+
+#divImgMini {
+    position: relative;
+    top: 13PX;
+    left: 25PX;   
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 11px;
+}
