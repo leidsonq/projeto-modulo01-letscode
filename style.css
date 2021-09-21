@@ -1,7 +1,7 @@
-/*estilos gerais da página
+/*ESTILOS GERAIS DA PÁGINA
 ---------------------------*/
 
-.flexible{
+.flexible {
     display: flex;
 }
 
@@ -13,44 +13,62 @@ ul {
     list-style: none;
 }
 
-body {
-    width: 100vw;
+main {
+    width: 769px;
+    height: 1022px;
+    background:#F3F2EE;
 }
 
-/*estilos do header
+/*ESTILOS DO HEADER
 -------------------*/
 
 header {
+   /*posicionamento*/ 
+   position: relative;
+
+   /*visualização*/
    width: 768px;
    height: 59px;
+   background:#FFFFFF;
 }
 
 #imgIn {
+    /*visualização*/
     width: 34px;
     height: 34px;
 }
 
-#divIn{
-    position: relative;
+#divIn {
+    /*posicionamento*/
+    position: absolute;
+    top: 13px; 
+    left: 27px; 
+
+    /*visualização*/
     width: 277px;
     height: 34px;
-    top: 11px; 
-    left: 27px; 
+
 }
 
 #imgLoupe {
+    /*posicionamento*/
     position: absolute;
     top: 10.5px;
     left: 15px;
+
+    /*visualização*/
     width: 11px;
     height: 11px;
 
 }
 
 .inputSearch {
+    /*posicionamento*/
     position: absolute;
     left: 34px;
     top: 11.5px;
+
+    /*visualização*/
     border: none;
     outline: none;
     height: 11px;
@@ -58,8 +76,11 @@ header {
 }
 
 #divSearchbar {
+    /*posicionamento*/
     position: absolute;
     left: 42px;
+
+    /*visualização*/
     width: 235px;
     height: 34px;
     border-radius: 4px;
@@ -67,36 +88,46 @@ header {
 }
 
 #imgIcons {
-    position: relative;
+    /*visualização*/
     width: 20px;
     height: 20px;
 }
 
-#divIcons{
-    position: relative;
-    top: -13px;
+#divIcons {
+    /*posicionamento*/
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    /*visualização*/
     width: 290px;
     height: 40px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
-#divIconsAndMini{
-    position: relative;
-    top: 11px;
-    left: 124px;
-    width: 350px;
-    height: 40px;
 }
 
 .divItem {
-    width: 58px;
-    height: 40px;
-    filter: opacity(60%);
+    /*posicionamento*/
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    /*visualização*/
+    width: 55px;
+    height: 34px;
+    filter: opacity(60%);
+
+}
+
+#divIconsAndMini {
+    /*posicionamento*/
+    position: absolute;
+    right: 0px;
+    top: -6px;
+
+    /*visualização*/
+    width: 350px;
+    height: 40px;
 }
 
 .divItem:hover {
@@ -108,27 +139,61 @@ figure {
 }
 
 figcaption {
-    font-size: 11px;
+    font-size: 10px;
     width: 58px;
 }
 
 #imgMini {
+     /*visualização*/
     width: 25.4px;
     height: 25.px;
     border-radius: 50%;
 }
 
 #divImgMini {
-    position: relative;
-    top: 13PX;
-    left: 25PX;   
-    width: 40px;
-    height: 40px;
+    /*posicionamento*/
+    position: absolute;
+    top: 18PX;
+    left: 292PX; 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    /*visualização*/  
+    width: 40px;
+    height: 40px;
+
 }
 
 span {
-    font-size: 11px;
+    font-size: 10px;
+}
+
+/*ESTILOS DA DIV INFORMAÇÕES PESSOAIS
+-------------------*/
+
+#divPersonInformations {
+    /*posicionamento*/
+    position: absolute;
+    top: 97px;
+    left: 35px;
+
+     /*visualização*/ 
+     width: 717px;
+     height: 320px;
+     background:#FFFFFF;
+}
+
+/*ESTILOS DA DIV EXPERIÊNCIA E FORMAÇÃO
+-------------------*/
+#divExpirienceAndFormarion {
+      /*posicionamento*/
+      position: absolute;
+      top: 451px;
+      left: 35px;
+  
+       /*visualização*/ 
+       width: 717px;
+       height: 535px; 
+       background:#FFFFFF;
 }
