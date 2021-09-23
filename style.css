@@ -103,6 +103,7 @@ header {
     /*visualização*/
     width: 290px;
     height: 40px;
+    gap: 38px;
 
 }
 
@@ -113,7 +114,7 @@ header {
     align-items: center;
 
     /*visualização*/
-    width: 55px;
+    width: 20px;
     height: 34px;
     filter: opacity(60%);
 
@@ -182,6 +183,120 @@ span {
      width: 717px;
      height: 320px;
      background:#FFFFFF;
+}
+
+#coverImage {
+    /*posicionamento*/
+    position: absolute;
+
+    /*visualização*/
+    width: 717px;
+    height: 135px;
+}
+
+#divCoverImage {
+    width: 717px;
+    height: 135px;
+}
+
+#profilePicture {
+    /*posicionamento*/
+    position: absolute;
+
+    /*visualização*/
+    width: 106.64px;
+    height: 106.64px;
+    border-radius: 50%;
+}
+
+#divProfilePicture {
+    /*posicionamento*/
+    position: absolute;
+    left: 31.38px;
+    top: 59px;
+
+    /*visualização*/
+    width: 106.64px;
+    height: 106.64px;
+}
+
+#profileName {
+    /*posicionamento*/
+    position: absolute;
+    top: 34px;
+    left: 22px;
+
+    /*visualização*/
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#personalData {
+     /*posicionamento*/
+     position: absolute;
+     left: 0px;
+     top: 135px;
+
+    /*visualização*/
+    width: 717px;
+    height: 185px;
+}
+
+#positionAndCompany {
+    /*posicionamento*/
+    position: absolute;
+    top: 73px;
+    left: 22px;
+
+    /*visualização*/
+    font-size: 14px;
+}
+
+#fontLocation {
+    /*posicionamento*/
+    position: absolute;
+    left: 22px;
+    top: 112px;
+
+    /*visualização*/
+    font-size: 12px;
+    color: #666666;
+}
+
+#divButtons {
+    position: absolute;
+    width: 717px;
+    top: 145px;
+    left: 22px;
+    gap: 14px;
+}
+
+#buttonInterest {
+    border-radius: 15px;
+    background: #0B65C2;
+    color: #FFFFFF;
+    font-size: 11px;
+    padding: 4px;
+}
+
+#buttonInterest:hover {
+    background: #00008B;
+}
+
+#buttonSections {
+    border-radius: 15px;
+    background: #FFFFFF;
+    color: #666666;
+    font-size: 11px;
+    padding: 4px;
+}
+
+#buttonMost {
+    border-radius: 15px;
+    background: #FFFFFF;
+    color: #666666;
+    font-size: 11px;
+    padding: 4px;
 }
 
 /*ESTILOS DA DIV EXPERIÊNCIA E FORMAÇÃO
