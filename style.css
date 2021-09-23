@@ -120,6 +120,10 @@ header {
 
 }
 
+.divItem:hover {
+    filter: opacity(100%);
+}
+
 #divIconsAndMini {
     /*posicionamento*/
     position: absolute;
@@ -129,10 +133,6 @@ header {
     /*visualização*/
     width: 350px;
     height: 40px;
-}
-
-.divItem:hover {
-    filter: opacity(100%);
 }
 
 figure {
@@ -273,14 +273,20 @@ span {
 
 #buttonInterest {
     border-radius: 15px;
+    border-color: #0B65C2;
     background: #0B65C2;
     color: #FFFFFF;
+    border-width: -1px;
     font-size: 11px;
-    padding: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #buttonInterest:hover {
     background: #00008B;
+    border-width: -1px;
 }
 
 #buttonSections {
@@ -288,7 +294,14 @@ span {
     background: #FFFFFF;
     color: #666666;
     font-size: 11px;
-    padding: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#buttonSections:hover {
+    filter: opacity(60%);
 }
 
 #buttonMost {
@@ -296,7 +309,14 @@ span {
     background: #FFFFFF;
     color: #666666;
     font-size: 11px;
-    padding: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#buttonMost:hover {
+    filter: opacity(60%);
 }
 
 /*ESTILOS DA DIV EXPERIÊNCIA E FORMAÇÃO
