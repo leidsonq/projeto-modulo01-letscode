@@ -273,7 +273,7 @@ span {
 
 #buttonInterest {
     border-radius: 15px;
-    border-color: #0B65C2;
+    border: #0B65C2 solid 1px;
     background: #0B65C2;
     color: #FFFFFF;
     border-width: -1px;
@@ -291,6 +291,7 @@ span {
 
 #buttonSections {
     border-radius: 15px;
+    border:#666666 solid 1px;
     background: #FFFFFF;
     color: #666666;
     font-size: 11px;
@@ -301,11 +302,17 @@ span {
 }
 
 #buttonSections:hover {
-    filter: opacity(60%);
+    filter: opacity(70%);
+    border-width: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #buttonMost {
     border-radius: 15px;
+    border: #666666 solid 1px;
     background: #FFFFFF;
     color: #666666;
     font-size: 11px;
@@ -316,7 +323,12 @@ span {
 }
 
 #buttonMost:hover {
-    filter: opacity(60%);
+    filter: opacity(70%);
+    border-width: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*ESTILOS DA DIV EXPERIÊNCIA E FORMAÇÃO
@@ -331,4 +343,65 @@ span {
        width: 717px;
        height: 535px; 
        background:#FFFFFF;
+}
+
+.fontTitle {
+    font-size: 14px;
+    font-family: 'Rambla', sans-serif;
+}
+
+.fontOficce {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Rambla', sans-serif;
+    margin: 0px;
+}
+
+.fontCompany {
+    font-size: 11px;
+    font-family: 'Rambla', sans-serif;
+    margin: 0px;
+}
+
+.fontTimeAndLocal {
+    font-size: 11px;
+    font-family: 'Rambla', sans-serif;
+    color: #666666;
+    margin: 0px;
+}
+
+#divTitle01 {
+    position: absolute;
+    top: 16px;
+    left: 21px;
+}
+
+.containerExperience {
+    position: absolute;
+    width: 717px;
+    top: 63px;
+    left: 24px;
+}
+
+.imgCompany {
+    width: 35px;
+    height: 35px;
+    border: #666666 solid 0.5px;
+}
+
+#divExperience01 {
+    width: 717px;
+
+}
+
+#divTextExperience01 {
+    position: absolute;
+    width: 637px;
+    left: 56px;
+}
+
+#divImgExperience01 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
 }
