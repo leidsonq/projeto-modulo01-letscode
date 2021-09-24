@@ -376,10 +376,26 @@ span {
     left: 21px;
 }
 
+#divTitle02 {
+    position: absolute;
+    top: 181px;
+    left: 21px;
+}
+
 .containerExperience {
     position: absolute;
-    width: 717px;
+    width: 693px;
+    height: 102px;
     top: 63px;
+    left: 24px;
+    border-bottom: #EBEBEB solid 1px;
+}
+
+.containerFormation {
+    position: absolute;
+    width: 693px;
+    height: 102px;
+    top: 240px;
     left: 24px;
 }
 
@@ -394,13 +410,30 @@ span {
 
 }
 
+#divFormation01 {
+    width: 717px;
+
+}
+
 #divTextExperience01 {
     position: absolute;
     width: 637px;
     left: 56px;
 }
 
+#divTextFormation01 {
+    position: absolute;
+    width: 637px;
+    left: 56px;
+}
+
 #divImgExperience01 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+
+#divImgFormation01 {
     position: absolute;
     width: 35px;
     height: 35px;
