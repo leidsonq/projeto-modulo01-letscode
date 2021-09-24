@@ -122,6 +122,7 @@ header {
 
 .divItem:hover {
     filter: opacity(100%);
+    cursor: pointer;
 }
 
 #divIconsAndMini {
@@ -287,6 +288,7 @@ span {
 #buttonInterest:hover {
     background: #00008B;
     border-width: -1px;
+    cursor: pointer;
 }
 
 #buttonSections {
@@ -308,6 +310,7 @@ span {
     padding-bottom: 3px;
     padding-left: 15px;
     padding-right: 15px;
+    cursor: pointer;
 }
 
 #buttonMost {
@@ -329,6 +332,7 @@ span {
     padding-bottom: 3px;
     padding-left: 15px;
     padding-right: 15px;
+    cursor: pointer;
 }
 
 /*ESTILOS DA DIV EXPERIÊNCIA E FORMAÇÃO
